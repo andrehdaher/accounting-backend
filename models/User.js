@@ -18,7 +18,7 @@ const authSchema = new mongoose.Schema(
 )
 
 // Ensure efficient alphabetical sorts by userName
-authSchema.index({ userName: 1 })
+// authSchema.index({ userName: 1 })
 
 // Hide password when converting to JSON
 authSchema.set('toJSON', {

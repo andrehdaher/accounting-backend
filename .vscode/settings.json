@@ -1,0 +1,6 @@
+{
+  // Enable auto save on focus change — change to "afterDelay" to save after a delay
+  "files.autoSave": "onFocusChange",
+  // If using "afterDelay", set the delay in milliseconds (e.g., 1000 = 1s)
+  "files.autoSaveDelay": 1000
+}
